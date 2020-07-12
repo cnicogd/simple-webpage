@@ -1,0 +1,150 @@
+.small-image{
+    width: 200px;
+    border-color: grey;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    float:right;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255,255,255);
+background: linear-gradient(142deg, rgba(255,255,255,1) 0%, rgba(209,203,203,1) 98%, rgba(107,104,104,1) 100%);
+line-height: 1.5;
+
+}
+button:hover{
+    color:pink;
+}
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border-radius: 5px;
+    border-style: outset;
+    border-left: 3px solid #ab45ba;
+    border-right: 3px solid #ab45ba;
+    
+  }
+  
+  li.nav {
+    float: left;
+  }
+  
+  li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+  }
+  @media screen and (max-width: 600px) {
+    ul.sidenav li.right, 
+    ul.sidenav li {float: none;}
+     }
+  .active {
+    background-color: #4CAF50;
+  }
+  li a:hover {
+    background-color: #ab45ba;
+  }
+  textarea {
+    width:300px;
+    height: 300px;
+    resize: none;
+    overflow: auto;
+  }
+  .contacto {
+    width: 200px;
+  margin: auto;
+  border: 5px solid gray;
+  text-align: center;
+  border-radius: 3px;
+  padding: auto;
+  overflow: auto;
+  }
+.acerca {
+  background-color: linear-gradient(142deg, rgba(221,196,196,1) 2%, rgba(255,252,252,1) 88%) ;
+  width: 70%;
+  padding: auto;
+  border: 25px solid  ;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px 50px;
+  outline-color: invert;
+  overflow: auto;
+  box-shadow: 10px 10px 5px grey;
+}
+footer {
+  background-color: #333333;
+  width: auto;
+  padding: auto;
+  border: 15px solid  #333333;
+  margin: auto;
+  text-align: left;
+  overflow: hidden;
+  border-radius: 5px;
+  color: whitesmoke;
+  
+}
+.inicio , .perfil {
+  text-indent: 50px;
+}
+h1 , .laboral {
+  text-indent: 70px;
+}
+
+.formulario {
+  background-color: yellow;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+p   {
+  position: relative;
+  animation-name: rainbow;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+}
+@keyframes rainbow{
+0% {
+  left: -100px;
+}
+100% {
+  left: 0px;
+}
+}
+.sidenav , .soluciones {
+  position: relative;
+  animation-name: sidenav;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+}
+@keyframes sidenav{
+0% {
+  right: -100px;
+}
+100% {
+  right: 0px;
+}
+}
+.clearing{
+  clear:both;
+  }
+  .enviar {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #ab45ba; 
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px ;
+  }
